@@ -159,7 +159,7 @@ void fill_db() {
 	r2.insert_in_db();
 	r3.insert_in_db();
 
-	Dish d1 = { 0, 0, "r1 d1", 11 },
+	Dish d1 = { 0, 0, "r1 d11", 11 },
 		d2 = { 1, 1, "r2 d1", 21 },
 		d3 = { 2, 2, "r3 d1", 31 },
 		d4 = { 3, 0, "r1 d2", 12 },

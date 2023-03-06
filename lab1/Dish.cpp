@@ -44,7 +44,6 @@ void Dish::insert_in_db() {
 		fseek(dish_db, address, SEEK_SET);
 		fread_one(dish_db, &temp);
 		id = temp.id;
-		cout << "Find deleted with id " << id << "\n";
 		fclose(dish_db);
 		fopen_dish(&dish_db, "r+b");
 		fseek(dish_db, address, SEEK_SET);
